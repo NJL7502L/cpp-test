@@ -1,0 +1,7 @@
+{
+  "files.associations": {
+    "*.jb": "ruby",
+    "iterator": "cpp",
+    "vector": "cpp"
+  }
+}

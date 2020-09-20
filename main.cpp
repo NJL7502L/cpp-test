@@ -3,8 +3,9 @@
 using namespace std;
 
 int main() {
-  vector<int> v{10, 10};
+
+  vector<vector<int>> vv{{1, 2, 3}, {4, 5, 6}};
   cout << "Hello! World!" << endl;
-  cout << v[0] << "\t" << v[1] << endl;
+  cout << vv[1][2] << "\t" << vv[0][1] << endl;
   return 0;
 }
