@@ -2,6 +2,7 @@
   "files.associations": {
     "*.jb": "ruby",
     "iterator": "cpp",
-    "vector": "cpp"
+    "vector": "cpp",
+    "ostream": "cpp"
   }
 }
