@@ -3,6 +3,7 @@
     "*.jb": "ruby",
     "iterator": "cpp",
     "vector": "cpp",
-    "ostream": "cpp"
+    "ostream": "cpp",
+    "*.tpp": "cpp"
   }
 }
