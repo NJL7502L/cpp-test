@@ -3,23 +3,18 @@
 
 #include <stdio.h>
 
-typedef enum var { hoge, puyo } var;
+typedef enum TP_VAR { hoge, puyo } TP_VAR;
 
-// #define def_var template <var variable>
-// #define def_fnc test<variable>
+#define CTTP_CLASS template <TP_VAR variable>
+#define CTTP_FNC Test<variable>
 
-template <var variable> class Test {
+CTTP_CLASS class Test {
 private:
-  // test(const test<variable> &);
-
-  // void operator=(const test<variable> &obj){};
-  // test(const test<variable> &obj){};
-
   Test();
 
 public:
-  int a = 0;
-  static Test<variable> &getInstance();
+  int counter = 0;
+  static CTTP_FNC &getInstance();
 };
 
 #include "Test.tpp"
